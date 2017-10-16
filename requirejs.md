@@ -4,6 +4,8 @@
 
 - 直接改变基目录（baseUrl）
 
+- 如果某个模块在另一台主机上，也可以直接指定它的网址
+
 ```js
 require.config({
 　　　　baseUrl: "js/lib",
