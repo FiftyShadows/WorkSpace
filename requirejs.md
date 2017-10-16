@@ -18,6 +18,22 @@ require.config({
 　　        });
 ```
 
+##AMD模块的写法
+
+```
+define(['myLib'], function(myLib){
+　　　　function foo(){
+　　　　　　myLib.doSomething();
+　　　　}
+　　　　return {
+　　　　　　foo : foo
+　　　　};
+　　});
+```
+
+
+
+
 
 ##加载非规范的模块
 
