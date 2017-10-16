@@ -3,7 +3,7 @@
 - require.config()就写在主模块（main.js）的头部。参数就是一个对象，这个对象的paths属性指定各个模块的加载路径。
 
 
-```
+```js
 require.config({
 　　　　baseUrl: "js/lib",
 　　　　paths: {
