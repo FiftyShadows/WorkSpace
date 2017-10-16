@@ -1,5 +1,6 @@
 ##require.config()方法
 
+###第一种写法
 ```
 require(['jquery', 'underscore', 'backbone'], function ($, _, Backbone){
 　　　　// some code here
@@ -7,7 +8,7 @@ require(['jquery', 'underscore', 'backbone'], function ($, _, Backbone){
 ```
 
 
-
+###第二种写法
 - require.config()就写在主模块（main.js）的头部。参数就是一个对象，这个对象的paths属性指定各个模块的加载路径。
 
 - 直接改变基目录（baseUrl）
