@@ -22,13 +22,13 @@ require.config({
 
 
 
+##require.js插件
 
+- domready插件，可以让回调函数在页面DOM结构加载完成后再运行。
 
+- text和image插件，则是允许require.js加载文本和图片文件。
 
-
-
-
-
+- 类似的插件还有json和mdown，用于加载json文件和markdown文件。
 
 
 
