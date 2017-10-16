@@ -12,7 +12,8 @@ require.config({
 　　　　paths: {
 　　　　　　"jquery": "jquery.min",
 　　　　　　"underscore": "underscore.min",
-　　　　　　"backbone": "backbone.min"
+　　　　　　"backbone": "backbone.min",
+           "jquery":"https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min"
 　　　　        }
 　　        });
 ```
