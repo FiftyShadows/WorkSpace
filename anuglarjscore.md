@@ -39,6 +39,8 @@ ui-view显示多视图
 
 AngularJS的MVC是借助于$scope实现的！
 
+![](/assets/360截图20171018020809649.jpg)
+
 
 
 
