@@ -32,7 +32,7 @@ ui-view显示多视图
 
 ![](/assets/360截图20171018003149368.jpg)
 
-
+`ng-class="{active: type == 'local'}"`
 
 
 
