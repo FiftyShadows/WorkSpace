@@ -29,15 +29,15 @@ Reflow 的成本比 Repaint 的成本高得多的多。DOM Tree 里的每个结�
 display:none 会触发 reflow，而 visibility:hidden 只会触发 repaint，因为没有发现位置变化。
 
 
+Reflow是不可避免的，只能将Reflow对性能的影响减到最小,给出下面几条建议：
 
+1. 不要一条一条地修改 DOM 的样式。与其这样，还不如预先定义好 css 的 class，然后修改 DOM 的 className。
 
+2. 把 DOM 离线后修改。
 
+    - 使用 documentFragment 对象在内存里操作 DOM。
 
-
-
-
-
-
+    - 先把 DOM 给 display:none (有一次 repaint)，然后你想怎么改就怎么改。比如修改 100 次，然后再把他显示出来。
 
 
 
