@@ -40,13 +40,25 @@ $scope.del = function () {
 不能使用：$cookies.变量名 = {
 变量名1： 变量值，
 变量名2： 变量名，
+.............
+}
+因为这样使用：$cookies.变量名.变量名1的方式就不被识别
 
+cookies存储少量数据
+cookieStore采用key-value(String-object)方式存储数据,
+put,get,remove分别用于存数据，取数据，移除数据
 
-
-
-
-
-
+```
+angular.module('cookieStoreExample', ['ngCookies'])
+  .controller('ExampleController', ['$cookieStore', Function($cookieStore) {
+    // Put cookie
+    $cookieStore.put('myFavorite','oatmeal');
+    // Get cookie
+    var favoriteCookie = $cookieStore.get('myFavorite');
+    // Removing a cookie
+    $cookieStore.remove('myFavorite');
+  }]);
+```
 
 
 
