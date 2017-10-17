@@ -75,11 +75,16 @@ angular.module('cookieStoreExample', ['ngCookies'])
 
 后面的uploader="uploader"这个也是必填的 ，这个是我们实例一个上传实例，你可以看到我们的controller有$scope.uploader = new FileUploader();这就是实例一个上传，我们前台得到这个实例，然后操作。
 
+两个属性是必须的，还有两个可选属性options="{Object}" filters="{String}" 
 
-
-
-
-
+```
+uploader.filters.push({
+        name: 'customFilter',
+        fn: function(item, options) {
+            return this.queue.length < 10;
+        }
+    });
+```
 
 
 
