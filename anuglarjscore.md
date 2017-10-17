@@ -77,7 +77,7 @@ ui-view显示多视图
 ![](/assets/360截图20171017151622357.jpg)
 
 
-AngularUI指令库
+AngularUI第三方指令库
 
 
 
