@@ -57,6 +57,10 @@ ui-view显示多视图
 
 ![](/assets/360截图20171017133718392.jpg)
 
+- 什么时候逻辑写在controller里，什么时候写在link里？
+
+要向外部暴露一些方法让web调用就写在controller里，link处理指令内部的事物，给元素绑定事件或数据。
+
 
 - 独立scope
 
