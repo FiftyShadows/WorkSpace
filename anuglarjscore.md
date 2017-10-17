@@ -35,9 +35,9 @@ ui-view显示多视图
 
 ![](/assets/360截图20171017004323275.jpg)
 
+![](/assets/360截图20171018015306582.jpg)
 
-
-
+angularjs的MVC是借助于$scope实现的！
 
 
 
