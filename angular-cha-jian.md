@@ -73,7 +73,7 @@ angular.module('cookieStoreExample', ['ngCookies'])
 
 前面的file是input上传时用的特殊type，nv-file-select 是上传的样式，这个是最近基本的文件上传，还有nv-file-over这个是拖动到指定位置上传 nv-file-drop这个你直接把文件拖进网页就可以上传。
 
-
+后面的uploader="uploader"这个也是必填的 ，这个是我们实例一个上传实例，你可以看到我们的controller有$scope.uploader = new FileUploader();这就是实例一个上传，我们前台得到这个实例，然后操作。
 
 
 
