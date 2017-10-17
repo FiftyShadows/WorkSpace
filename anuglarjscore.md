@@ -2,7 +2,7 @@
 
 angular-ui-router来实现
 
-ui-view显示视图
+ui-view显示多视图
 
 ```
     $urlRouterProvider.otherwise("/index");
