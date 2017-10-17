@@ -2,9 +2,19 @@
 
 angular-ui-router来实现
 
+ui-view显示视图
 
+```
+    $urlRouterProvider.otherwise("/index");
 
-
+    //dependencies: ['services/usersService']
+    $stateProvider.state('index', {
+        url: '/index',
+        templateUrl: 'html/index/index.html',
+        controllerUrl: 'controllers/indexCtrl',
+        controller: 'indexCtrl',
+    })
+```
 
 
 
