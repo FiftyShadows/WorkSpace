@@ -86,7 +86,7 @@ uploader.filters.push({
     });
 ```
 
-
+过滤器的名字是customFilter 方法执行子fn里 queue是文件上传实例也就是uploader的属性
 
 
 
