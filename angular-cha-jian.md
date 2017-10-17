@@ -5,15 +5,30 @@
 
 
 
+##angular-ui-router
 
 
 
+##ngDialog
 
-
-
-
-
-
+```
+$scope.del = function () {  
+            ngDialog.open({  
+                template: '/del.html',  
+                className: 'ngdialog-theme-default',  
+                scope: $scope,  
+                controller: function ($scope) {  
+                ...  
+                    $scope.confirm = function () {  
+                    ...  
+                    };  
+                    $scope.cancel = function () {  
+                        $scope.closeThisDialog();  
+                    };  
+                }  
+          });  
+}; 
+```
 
 
 
