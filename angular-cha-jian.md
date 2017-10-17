@@ -35,7 +35,6 @@ $scope.del = function () {
 
 ##angular-cookies
 
-
 在App 中require模块ngCookies---------angular.module("app",['ngCookies']);
 使用格式：$cookies.变量名 = 变量值
 不能使用：$cookies.变量名 = {
