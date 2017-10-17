@@ -34,9 +34,9 @@ ui-view显示多视图
 
 `ng-class="{active: type == 'local'}"`
 
+开关效果
 
-
-
+![](/assets/360截图20171018004927640.jpg)
 
 
 
