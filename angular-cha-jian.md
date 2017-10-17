@@ -60,9 +60,9 @@ angular.module('cookieStoreExample', ['ngCookies'])
   }]);
 ```
 
+可以以对象的形式存储
 
-
-
+`$cookieStore.put("user",{id: "id",name: "name"});`
 
 
 
