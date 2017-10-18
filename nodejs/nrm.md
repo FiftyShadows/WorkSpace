@@ -38,13 +38,15 @@ nrm use taobao
 
 ####增加源
 
+nrm add <registry> <url> [home]
 
+####删除源
 
+nrm del <registry>
 
+####测试速度
 
-
-
-
+nrm test
 
 
 
