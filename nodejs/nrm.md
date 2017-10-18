@@ -20,7 +20,7 @@ npm install -g nrm
 
 ####列出可用的源
 
-nrm list
+nrm ls
 
   npm ---- https://registry.npmjs.org/
   cnpm --- http://r.cnpmjs.org/
