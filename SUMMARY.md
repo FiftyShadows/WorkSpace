@@ -8,4 +8,5 @@
 * [NodeJS](nodejs.md)
   * [nrm](nodejs/nrm.md)
 * [Angular经典组件](angularjing-dian-zu-jian.md)
+* [1.星级评价组件](1xing-ji-ping-jia-zu-jian.md)
 
