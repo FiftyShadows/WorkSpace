@@ -7,4 +7,5 @@
 * [javascript动画和css动画](javascriptdong-hua-he-css-dong-hua.md)
 * [NodeJS](nodejs.md)
   * [nrm](nodejs/nrm.md)
+* [Angular经典组件](angularjing-dian-zu-jian.md)
 
