@@ -11,5 +11,6 @@
   * [1. 星级评价组件](angularjing-dian-zu-jian/1.md)
 * [Angular常见错误](angularchang-jian-cuo-wu.md)
 * [电商平台](dian-shang-ping-tai.md)
-  * [1.](1.md)
+  * [1. 技术选型](1.md)
+  * [2. 开发环境和开发工具](2.md)
 
