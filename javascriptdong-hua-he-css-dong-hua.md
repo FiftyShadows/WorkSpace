@@ -48,17 +48,3 @@ Reflow是不可避免的，只能将Reflow对性能的影响减到最小,给出�
 5. 为动画的 HTML 元件使用 fixed 或 absoult 的 position，那么修改他们的 CSS 是会大大减小 reflow 。
 
 6. 千万不要使用 table 布局。因为可能很小的一个小改动会造成整个 table 的重新布局。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
