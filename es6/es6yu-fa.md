@@ -62,7 +62,8 @@
 
 ```
 {
-    console.log('字符串', Object.is('abc', 'abc'), 'abc' === 'abc');
+    console.log('字符串', Object.is('abc', 'abc'), 'abc' === 'abc');    //true true
+    console.log('数组', Object.is([], []), [] === []);
 }
 ```
 
