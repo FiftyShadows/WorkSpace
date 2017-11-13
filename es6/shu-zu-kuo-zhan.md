@@ -122,34 +122,3 @@
     console.log('number', [1, 2, NaN] .includes(NaN));    //true
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
