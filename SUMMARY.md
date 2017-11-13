@@ -22,5 +22,5 @@
   * [数值扩展](es6/shu-zhi-kuo-zhan.md)
   * [数组扩展](es6/shu-zu-kuo-zhan.md)
   * [函数扩展](es6/han-shu-kuo-zhan.md)
-  * ES6语法
+  * [ES6语法](es6/es6yu-fa.md)
 
