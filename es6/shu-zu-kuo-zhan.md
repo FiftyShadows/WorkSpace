@@ -108,7 +108,7 @@
 
 - findIndex找到第一个符合条件的值得下标
 
-- includes
+- includes数组是否包含某个值
 
 
 ```
