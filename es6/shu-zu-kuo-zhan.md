@@ -73,6 +73,13 @@
 
 ##entries\keys\values
 
+```
+{
+    for(let index if ['1', 'c', 'ks'].keys()){
+        console.log('keys', index);
+    }
+}
+```
 
 
 
