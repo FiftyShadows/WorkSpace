@@ -73,12 +73,18 @@
 
 ##entries\keys\values
 
-```
+```js
 {
-    for(let index of ['1', 'c', 'ks'].keys()){
     //返回数组的下标，of后边[0, 1, 2]
+    for(let index of ['1', 'c', 'ks'].keys()){
         console.log('keys', index);
     }
+    
+    //返回数组的值
+    for(let index of ['1', 'c', 'ks'].values()){
+            console.log('keys', index);
+    }
+    
 }
 ```
 
