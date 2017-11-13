@@ -21,8 +21,9 @@
 
 ##判断一个值是否有尽
 
-```
+```js
 {
-     console.log();   
+     console.log('15',Number.isFinite(15));//true
+     console.log('NaN',Number.isFinite(Nan)); //false
 }
 ```
