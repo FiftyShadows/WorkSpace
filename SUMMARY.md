@@ -21,4 +21,5 @@
   * [字符串扩展](es6/zi-fu-chuan-kuo-zhan.md)
   * [数值扩展](es6/shu-zhi-kuo-zhan.md)
   * [数组扩展](es6/shu-zu-kuo-zhan.md)
+  * [函数扩展](es6/han-shu-kuo-zhan.md)
 
