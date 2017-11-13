@@ -15,6 +15,14 @@
 
 ##
 
+```
+{
+    function test(x, y){
+        console.log();
+    }
+}
+```
+
 
 
 
