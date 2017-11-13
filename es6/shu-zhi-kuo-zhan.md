@@ -37,8 +37,11 @@
 
 ##判断是不是整数Number.isInteger
 `console.log('25.0',Number.isInteger(25.0));//true`
+`console.log('25',Number.isInteger('25'));//false`
 
 
+
+判断一个数是否在-2e53到2
 
 
 
