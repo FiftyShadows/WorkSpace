@@ -31,6 +31,13 @@
 
 
 ##判断是不是非数字Nimber.isNaN
+`console.log('0',Number.isNan(0));//false`
+
+
+
+##判断是不是整数Number.isInteger
+`console.log('25.0',Number.isInteger(25.0));//true`
+
 
 
 
