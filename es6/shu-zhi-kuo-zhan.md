@@ -1,4 +1,4 @@
-##二进制数值的表示方法
+## 二进制数值的表示方法
 
 ```
 {
@@ -7,8 +7,9 @@
 }
 ```
 
+## 
 
-##八进制表示
+## 八进制表示
 
 ```
 {
@@ -18,8 +19,9 @@
 }
 ```
 
+## 
 
-##判断一个值是否有尽Number.isFinite
+## 判断一个值是否有尽Number.isFinite
 
 ```js
 {
@@ -29,28 +31,27 @@
 }
 ```
 
+## 
 
-##判断是不是非数字Nimber.isNaN
+## 判断是不是非数字Nimber.isNaN
+
 `console.log('0',Number.isNan(0));//false`
 
+## 
 
+## 判断是不是整数Number.isInteger
 
-##判断是不是整数Number.isInteger
-`console.log('25.0',Number.isInteger(25.0));//true`
+`console.log('25.0',Number.isInteger(25.0));//true`  
 `console.log('25',Number.isInteger('25'));//false`
 
+##
+
+##判断一个数是否在$-2^53=$到$2^53$
+
+最大上限`console.log(Number.MAX_SAFE_INTEGER);`
 
 
-判断一个数是否在-2^53到2^53
-
-
-
-
-
-
-
-
-
+最小下限`console.log(Number.MIN_SAFE_INTEGER);`
 
 
 
