@@ -70,7 +70,7 @@
 
 ```
 {
-    //Object.assign（到a, 从b拷到）
+    //Object.assign（到a, 从b拷）
     console.log('拷贝', Object.assign({a: 'a'}, {b: 'b'}));
 }
 ```
