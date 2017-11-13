@@ -53,6 +53,7 @@
     let es6_obj = {
         [a]: 'c'    //这里的a是一个表达式，相当于b: 'c'
     }
+    console.log(es5_obj, es6_obj);
 }
 ```
 
