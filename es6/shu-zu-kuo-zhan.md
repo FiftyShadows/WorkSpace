@@ -119,7 +119,7 @@
 }
 
     console.log('number', [1, 2, NaN].includes(1));    //true
-    console.log('number', [1, 2, NaN].includes(1));    //true
+    console.log('number', [1, 2, NaN].includes(NaN));    //true
 ```
 
 
