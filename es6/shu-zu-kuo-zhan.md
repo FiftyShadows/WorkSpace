@@ -118,8 +118,8 @@
     console.log([1, 2, 3, 4, 5, 6].findIdex(function(item){return item > 3}));    //3
 }
 
-    console.log('number', [1, 2, NaN].includes(1));    //true
-    console.log('number', [1, 2, NaN].includes(NaN));    //true
+    console.log('number', [1, 2, NaN] .includes(1));    //true
+    console.log('number', [1, 2, NaN] .includes(NaN));    //true
 ```
 
 
