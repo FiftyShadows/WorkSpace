@@ -80,11 +80,15 @@
         console.log('keys', index);
     }
     
-    //返回数组的值
+    //返回数组的值(需要bebel-polyfill兼容)
     for(let index of ['1', 'c', 'ks'].values()){
             console.log('keys', index);
     }
     
+    
+    for(let [index, value] of ['1', 'c', 'ks'].entires()){
+        console.log('entries', index, value);
+    }
 }
 ```
 
