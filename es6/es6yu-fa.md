@@ -64,7 +64,7 @@
 {
     console.log('字符串', Object.is('abc', 'abc'), 'abc' === 'abc');    //true true
     //数组是引用类型，虽然是空，但是是两个不同的地址
-    console.log('数组', Object.is([], []), [] === []);
+    console.log('数组', Object.is([], []), [] === []);    //false false
 }
 ```
 
