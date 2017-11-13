@@ -40,6 +40,17 @@
 ```
 
 
+```
+{
+    function test3(..arg){
+        for(let v if arg){
+            console.log('rest', v);
+        }
+    }
+}
+```
+
+
 
 
 
