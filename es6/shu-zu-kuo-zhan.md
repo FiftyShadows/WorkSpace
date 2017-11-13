@@ -37,7 +37,11 @@
     let pArr = Array.from(p);
     pArr.forEach(function(item){
         console.log(item.textContent);
-    })
+    });
+    
+    
+    console.log(Array.from([1,3,5], function(item){return item*2}));    //[2,6,10]
+    
 }
 ```
 
