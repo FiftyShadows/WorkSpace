@@ -80,6 +80,10 @@
 ```
 
 
+##立方根的计算Math.cdrt
+
+`console.log('-1',Math.cbrt(-1));    -1`
+
 
 
 
