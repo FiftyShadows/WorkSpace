@@ -75,7 +75,8 @@
 
 ```
 {
-    for(let index if ['1', 'c', 'ks'].keys()){
+    for(let index of ['1', 'c', 'ks'].keys()){
+    //返回数组的下标，of后边[0, 1, 2]
         console.log('keys', index);
     }
 }
