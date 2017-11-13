@@ -68,7 +68,11 @@
 }
 ```
 
-
+```
+{
+    console.log('拷贝', Object.assign({a: 'a'}, {b: 'b'}));
+}
+```
 
 
 
