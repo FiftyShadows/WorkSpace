@@ -19,11 +19,21 @@
 ```
 
 
-##判断一个值是否有尽
+##判断一个值是否有尽Number.isFinite
 
 ```js
 {
      console.log('15',Number.isFinite(15));//true
      console.log('NaN',Number.isFinite(Nan)); //false
+     console.log('1/0',Number.isFinite('true'/0));//false
 }
 ```
+
+
+##判断是不是非数字Nimber.isNaN
+
+
+
+
+
+
