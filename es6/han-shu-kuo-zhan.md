@@ -71,6 +71,8 @@
 
 ##尾调用
 
+- 提升性能
+
 ```
 {
     function tail(){
@@ -80,6 +82,8 @@
     function fx(){
         return tail(x)
     }
+    
+    fx(123)；    //tail 123
 }
 ```
 
