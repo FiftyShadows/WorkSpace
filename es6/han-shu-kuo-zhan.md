@@ -28,6 +28,18 @@
 
 
 
+```
+{
+    let x = 'test';
+    function test2(x, x = y){
+        console.log('作用域', x, y);
+    }
+    test2('kill');    //作用域 kill kill
+    test2();    //作用域 undefined undefined
+}
+```
+
+
 
 
 
