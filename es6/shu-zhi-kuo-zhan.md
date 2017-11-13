@@ -48,17 +48,36 @@
 
 ##判断一个数是否在$-2^53=$到$2^53$
 
+####两个常量
+
 最大上限`console.log(Number.MAX_SAFE_INTEGER);`
 
 
 最小下限`console.log(Number.MIN_SAFE_INTEGER);`
 
+####判断一个数是否安全Number.isSafeInteger
+
+`console.log('10',Number.isSafeInteger(10));//true`
+
+`console.log('a',Number.isSafeInteger('a'))    //false;`
 
 
+##判断带小数的整数部分，并返回Math.trunc
+
+`console.log(4.1, Math.trunc(4.1));    //4`
 
 
+##判断一个数是正数，负数，还是0 Math.sign
 
-
+```
+{
+    console.log('-5', Math.sign(-5));    //-1
+    console.log('0', Math.sign(0));    //0
+    console.log('5', Math.sign(5));    //1
+    console.log('50', Math.sign('50'));    //1
+    console.log('foo', Math.sign('foo'));    //NaN
+}
+```
 
 
 
