@@ -56,7 +56,7 @@
 
 ```
 {
-    console.log('fill-7', [1, 'a', undefined].fill(7));
+    console.log('fill-7', [1, 'a', undefined].fill(7));    //[7,7,7]
 }
 ```
 
