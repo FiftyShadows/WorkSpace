@@ -104,6 +104,12 @@
 
 ##find\findIndex
 
+```
+{
+    console.log([1, 2, 3, 4, 5, 6].find(function(item){return item > 3}));
+}
+```
+
 
 
 
