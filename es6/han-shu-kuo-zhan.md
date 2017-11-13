@@ -40,6 +40,10 @@
 ```
 
 
+
+##rest参数
+
+
 ```
 {
     function test3(..arg){
