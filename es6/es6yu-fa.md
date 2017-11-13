@@ -23,7 +23,20 @@
         o,
         k
     };
+    console.log();
     
+    //方法
+    let es5_method = {
+        hello: function(){
+            console.log('hello');
+        }
+    };
+    let es6_method = {
+        hello(){
+            console.log('hello');
+        }
+    };
+    console.log(es5_method.hello(), es6_method.hello());
 }
 ```
 
