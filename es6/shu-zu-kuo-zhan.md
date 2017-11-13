@@ -104,6 +104,8 @@
 
 ##find\findIndex
 
+- find只找到第一个符合的，便不再往后找了
+
 ```
 {
     console.log([1, 2, 3, 4, 5, 6].find(function(item){return item > 3}));
