@@ -17,4 +17,5 @@
   * [4. 项目通用功能开发](4.md)
 * [ES6](es6.md)
   * [Promise](es6/promise.md)
+  * [let、const命令，解构赋值，正则扩展](es6/letconstming-ling-ff0c-jie-gou-fu-zhi-ff0c-zheng-ze-kuo-zhan.md)
 
