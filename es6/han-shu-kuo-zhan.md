@@ -65,8 +65,23 @@
 
 ##箭头函数
 
+![](/assets/360截图20171113222156916.jpg)
 
 
+
+
+
+```
+{
+    function tail(){
+        console.log('tail', x);
+    }
+    
+    function fx(){
+        return tail(x)
+    }
+}
+```
 
 
 
