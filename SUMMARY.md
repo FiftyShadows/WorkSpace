@@ -20,4 +20,5 @@
   * [let、const命令，解构赋值，正则扩展](es6/letconstming-ling-ff0c-jie-gou-fu-zhi-ff0c-zheng-ze-kuo-zhan.md)
   * [字符串扩展](es6/zi-fu-chuan-kuo-zhan.md)
   * [数值扩展](es6/shu-zhi-kuo-zhan.md)
+  * [数组扩展](es6/shu-zu-kuo-zhan.md)
 
