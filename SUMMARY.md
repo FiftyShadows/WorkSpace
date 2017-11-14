@@ -17,12 +17,17 @@
   * [4. 项目通用功能开发](4.md)
 * [ES6](es6.md)
   * [Promise](es6/promise.md)
-  * [let、const命令，解构赋值，正则扩展](es6/letconstming-ling-ff0c-jie-gou-fu-zhi-ff0c-zheng-ze-kuo-zhan.md)
-  * [字符串扩展](es6/zi-fu-chuan-kuo-zhan.md)
-  * [数值扩展](es6/shu-zhi-kuo-zhan.md)
-  * [数组扩展](es6/shu-zu-kuo-zhan.md)
-  * [函数扩展](es6/han-shu-kuo-zhan.md)
-  * [对象扩展](es6/es6yu-fa.md)
-  * [Symbol](es6/symbol.md)
-  * [set-map数据结构](es6/set-mapshu-ju-jie-gou.md)
+  * [1-3. let、const命令，解构赋值，正则扩展](es6/letconstming-ling-ff0c-jie-gou-fu-zhi-ff0c-zheng-ze-kuo-zhan.md)
+  * [4-5. 字符串扩展](es6/zi-fu-chuan-kuo-zhan.md)
+  * [6. 数值扩展](es6/shu-zhi-kuo-zhan.md)
+  * [7. 数组扩展](es6/shu-zu-kuo-zhan.md)
+  * [8. 函数扩展](es6/han-shu-kuo-zhan.md)
+  * [9. 对象扩展](es6/es6yu-fa.md)
+  * [10. Symbol](es6/symbol.md)
+  * [11. set-map数据结构](es6/set-mapshu-ju-jie-gou.md)
+  * [12. Map与Array的对比，Set与Array的对比](es6/mapyu-array-de-dui-bi-ff0c.md)
+  * [13. Proxy和Rflect](es6/456.md)
+  * 14. 类和对象
+  * 235
+  * 526
 
