@@ -28,6 +28,10 @@
         'c': 456
     }
     consolo.log('obj', obj);
+    
+    for(let [key, value] of Object.entries(obj)){
+        console.log('let of', key, value);
+    }
 }
 ```
 
