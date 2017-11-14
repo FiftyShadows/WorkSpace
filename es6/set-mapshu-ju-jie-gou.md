@@ -90,6 +90,16 @@
 
 ##WeakSet
 
+- weakSet和Set支持的数据类型不一样,weakSet的元素只能是对象
+
+- weakSet中的对象都是弱引用
+
+```
+{
+  let weakList = new WeakSet();
+}
+```
+
 
 
 
