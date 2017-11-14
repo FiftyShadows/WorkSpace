@@ -71,7 +71,7 @@
 ```
 
 
-######Object.assign拷贝
+######Object.assign拷贝——浅复制
 ``` 
 {
     //Object.assign（到a, 从b拷）
