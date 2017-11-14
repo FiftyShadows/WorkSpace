@@ -81,8 +81,9 @@
     console.log('values', value); //add delete clear has
   }
   for(let [key, value] of list.entries()){
-    console.log('entries', key, value); //add delete clear has
+    console.log('entries', key, value); //add add delete delete ……
   }
+  list.forEach(function(item){console.log(item);})
 }
 ```
 
