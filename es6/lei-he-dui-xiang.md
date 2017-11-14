@@ -59,7 +59,7 @@
         constructor(name = 'imooc'){
             this.name = name;
         }
-        get longName(){
+        get longName(){    //这里是属性，不是方法
             return 'mk' + this.name
         }
         set longName(value){
