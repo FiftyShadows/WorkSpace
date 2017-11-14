@@ -109,6 +109,12 @@
 
 ##Map
 
+```
+{
+  let map = new Map();
+  let arr = ['123'];
+}
+```
 
 
 
