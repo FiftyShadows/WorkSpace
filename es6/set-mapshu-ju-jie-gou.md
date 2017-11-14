@@ -23,7 +23,7 @@
   let list = new Set();
   list.add(5);
   list.add(7);
-  console.log('size', list.size);
+  console.log('size', list.size);  size 2
 }
 
 //第二种定义方式
