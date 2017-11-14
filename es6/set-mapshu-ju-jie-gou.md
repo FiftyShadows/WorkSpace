@@ -40,7 +40,10 @@
    list.add(2);
    list.add(1);  //不会报错，但不生效
    console.log('list', list);
-     
+   
+   let  arr = [1, 2, 3, 1, 2];
+   let list2 = new Set(arr);
+   console.log('unique', list2);  //1 2 3
 }
 ```
 
