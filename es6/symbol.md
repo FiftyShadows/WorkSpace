@@ -32,11 +32,22 @@
     for(let [key, value] of Object.entries(obj)){
         console.log('let of', key, value);
     }
+    
+    Object.getOwnPropertySymbols(obj).forEach(function(item)){
+        console.log(obj[item]);
+    }
 }
 ```
 
 ######注意
 
 - 对象中有用到Symbol做key值，通过for...in和let...of拿不到该属性
+
+
+Object.getOwnPropertySymbols
+
+
+
+
 
 
