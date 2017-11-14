@@ -28,7 +28,7 @@
   * [13. Proxy和Rflect](es6/456.md)
   * [14. 类和对象](es6/lei-he-dui-xiang.md)
   * [15. Promise](es6/promise.md)
-  * [526](es6/526.md)
+  * [16. Iterator](es6/526.md)
   * 5446
   * 2416
   * 3216
