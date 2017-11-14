@@ -34,7 +34,7 @@
     }
     
     Object.getOwnPropertySymbols(obj).forEach(function(item)){
-        console.log(obj[item]);
+        console.log(obj[item]);    //123
     }
 }
 ```
