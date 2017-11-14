@@ -33,8 +33,12 @@
         console.log('let of', key, value);    取不到[a1]
     }
     
-    Object.getOwnPropertySymbols(obj).forEach(function(item)){
+    Object.getOwnPropertySymbols(obj).forEach(function(item){
         console.log(obj[item]);    //123
+    })
+    
+    Reflect.ownKeys(obj).forEach(function()){
+    
     }
 }
 ```
