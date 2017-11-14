@@ -38,7 +38,7 @@
    let list = new Set();
    list.add(1);
    list.add(2);
-   list.add(1);  //不生效，不报错
+   list.add(1);  //不会报错，但不生效
    console.log('list', list);
      
 }
