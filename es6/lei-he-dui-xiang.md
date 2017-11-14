@@ -88,12 +88,32 @@
             console.log('tell');
         }
     }
+    
+    Parent.tell();    //tell
   
 }
 ```
 
 
+##静态属性
 
+```
+{
+    class Parent{
+        constructor(name = 'imooc'){
+            this.name = name;
+        }
+        static tell(){
+            console.log('tell');
+        }
+        //注意，不能用static定义属性
+    }
+    
+    Parent.type = 'test';
+    console.log('静态属性', Parent.type);
+
+}
+```
 
 
 
