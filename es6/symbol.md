@@ -38,7 +38,7 @@
     })
     
     Reflect.ownKeys(obj).forEach(function(){
-        console.log('ownkeys', item, obj[item]);
+        console.log('Ownkeys', item, obj[item]);
     })
 }
 ```
