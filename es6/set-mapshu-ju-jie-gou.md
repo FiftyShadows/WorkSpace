@@ -43,7 +43,7 @@
    
    let  arr = [1, 2, 3, 1, 2];
    let list2 = new Set(arr);
-   console.log('unique', list2);  //1 2 3
+   console.log('unique', list2);  //unique Set{1 2 3}
 }
 ```
 
