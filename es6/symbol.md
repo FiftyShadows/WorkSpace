@@ -27,6 +27,7 @@
         'abc': 345,
         'c': 456
     }
+    consolo.log('obj', obj);
 }
 ```
 
