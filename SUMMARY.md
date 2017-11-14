@@ -29,7 +29,7 @@
   * [14. 类和对象](es6/lei-he-dui-xiang.md)
   * [15. Promise](es6/promise.md)
   * [16. Iterator](es6/526.md)
-  * 5446
+  * [17. Generator](es6/5446.md)
   * 2416
   * 3216
 
