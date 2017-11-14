@@ -65,12 +65,27 @@
         set longName(value){
             this,name = value;
         }
-    }    
+    }
+    let v = new Parent();
+    console.log('getter', v.longName);    //getter mkimooc
+    v.longName = 'hello';    
+    console.log('setter', v.longName);    //setter mkhello
 }
 ```
 
 
+##静态方法
 
+```
+{
+    class Parent{
+        constructor(name = 'imooc'){
+            this.name = name;
+        }
+    }
+  
+}
+```
 
 
 
