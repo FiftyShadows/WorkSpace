@@ -126,6 +126,8 @@
 ```
 {
   let map = new Map([['a', 123], ['b', 456]]);
+  console.log('map args', map);  //map args Map {'a' => 123, 'b' => 456}
+  console.log('size', map.size);  //size 2
 }
 ```
 
