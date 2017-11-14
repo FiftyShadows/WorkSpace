@@ -75,7 +75,7 @@
     console.log('keys', key);  //add delete clear has
   }
   for(let value of list.values()){
-    console.log('values', value); //add delete clear has
+    console.log('values', value);  //add delete clear has
   }
 }
 ```
