@@ -24,4 +24,5 @@
   * [函数扩展](es6/han-shu-kuo-zhan.md)
   * [对象扩展](es6/es6yu-fa.md)
   * [Symbol](es6/symbol.md)
+  * [set-map数据结构](es6/set-mapshu-ju-jie-gou.md)
 
