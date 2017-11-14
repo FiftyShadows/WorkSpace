@@ -23,4 +23,5 @@
   * [数组扩展](es6/shu-zu-kuo-zhan.md)
   * [函数扩展](es6/han-shu-kuo-zhan.md)
   * [对象扩展](es6/es6yu-fa.md)
+  * [Symbol](es6/symbol.md)
 
