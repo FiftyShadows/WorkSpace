@@ -9,6 +9,7 @@
     let a2 = Symbol();
     console.log(a1 === a2);    //false
     
+    //Symbol.for(key值)，有key值的时候，会检查全局是否注册过，注册过返回值，没注册过调Symbol生成一个独一无二的值
     let a3 = Symbol.for('a3');
     let a4 = Symbol.for('a3');
     console.log(a3 === a4);    //true
