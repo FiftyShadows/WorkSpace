@@ -33,7 +33,7 @@
   console.log('size', list.size);  //size 5
 }
 
-//唯一性
+//唯一性,不会做数据类型转换
 {
    let list = new Set();
    list.add(1);
@@ -41,7 +41,7 @@
    list.add(1);  //不会报错，但不生效
    console.log('list', list);
    
-   let  arr = [1, 2, 3, 1, 2];
+   let  arr = [1, 2, 3, 1, '2'];
    let list2 = new Set(arr);
    console.log('unique', list2);  //unique Set{1 2 3}
 }
