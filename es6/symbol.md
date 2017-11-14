@@ -4,9 +4,12 @@
 
 ```
 {
+    //声明
     let al = Symbol();
     let a2 = Symbol();
     console.log(a1 === a2);    //false
+    
+    let a3 = Symbol.for('a3');
 }
 ```
 
