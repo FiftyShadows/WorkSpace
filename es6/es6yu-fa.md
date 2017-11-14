@@ -71,7 +71,7 @@
 ```
 
 
-######Object.assign
+######Object.assign拷贝
 ``` 
 {
     //Object.assign（到a, 从b拷）
