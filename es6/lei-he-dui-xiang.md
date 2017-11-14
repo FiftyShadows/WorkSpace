@@ -23,5 +23,52 @@
             this.name = name;
         }
     }
+    let v_parent = new Parent('v');
+    console.log('构造函数和实例', v_parent);
 }
 ```
+
+
+
+##继承
+
+```
+{
+    class Parent{
+        constructor(name = 'imooc'){
+            this.name = name;
+        }
+    }
+    class Child expends Parent{
+        
+    }
+    console.log('继承', new Child());
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
