@@ -19,4 +19,15 @@
 
 ##Symbol的作用
 
+```
+{
+    let a1 = Symbol.for('abc');
+    let obj = {
+        [a1]: '123',
+        'abc': 345,
+        'c': 456
+    }
+}
+```
+
 
