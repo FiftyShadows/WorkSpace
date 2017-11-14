@@ -17,8 +17,6 @@
 
 - size方法获取变量有几个元素
 
-- 唯一性去重,不会做数据类型转换
-
 
 ```js
 //第一种定义方式
@@ -35,8 +33,12 @@
   let list = new Set(arr);
   console.log('size', list.size);  //size 5
 }
+```
 
-//唯一性,不会做数据类型转换
+
+- 唯一性去重,不会做数据类型转换
+
+```
 {
    let list = new Set();
    list.add(1);
