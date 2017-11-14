@@ -30,7 +30,7 @@
     consolo.log('obj', obj);
     
     for(let [key, value] of Object.entries(obj)){
-        console.log('let of', key, value);
+        console.log('let of', key, value);    取不到[a1]
     }
     
     Object.getOwnPropertySymbols(obj).forEach(function(item)){
@@ -43,8 +43,9 @@
 
 - 对象中有用到Symbol做key值，通过for...in和let...of拿不到该属性
 
+- Object.getOwnPropertySymbols去Symbol属性的值
 
-Object.getOwnPropertySymbols
+- Reflect.ownKeys(obj)
 
 
 
