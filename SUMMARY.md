@@ -30,6 +30,6 @@
   * [15. Promise](es6/promise.md)
   * [16. Iterator](es6/526.md)
   * [17. Generator](es6/5446.md)
-  * 2416
+  * [18. Decorator](es6/2416.md)
   * 3216
 
