@@ -45,7 +45,9 @@
 
 - Object.getOwnPropertySymbols能取到Symbol属性的值
 
-- Reflect.ownKeys(obj)
+- Reflect.ownKeys(obj)包含了Symbol变量作为key值的属性，也包含了非Symbol变量的属性
+
+
 
 
 
