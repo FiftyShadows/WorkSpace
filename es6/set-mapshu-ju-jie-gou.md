@@ -94,9 +94,14 @@
 
 - weakSet中的对象都是弱引用，不会检测对象是否在其他地方用过，不会跟垃圾回收机制挂钩
 
+- 没有size方法
+
 ```
 {
   let weakList = new WeakSet();
+  let arg = {};
+  weakList.add(arg);
+  weakList.add(2);  //报错
 }
 ```
 
