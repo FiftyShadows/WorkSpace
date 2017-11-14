@@ -60,6 +60,8 @@
   let list = new Set(arr);
   console.log('has', list.has('add'));  //has true 
   console.log('delete', list.delete('add'), list);
+  list.clear();
+  console.log('list', list);  //list set{}
 }
 ```
 
