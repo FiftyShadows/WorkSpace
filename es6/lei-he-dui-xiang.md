@@ -46,8 +46,7 @@
         }
     }
     console.log('继承', new Child());
-    console.log('继承传递参数', new Child());
-
+    console.log('继承传递参数', new Child('hello'));
 }
 ```
 
