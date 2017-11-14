@@ -27,7 +27,6 @@
   * [11. set-map数据结构](es6/set-mapshu-ju-jie-gou.md)
   * [12. Map与Array的对比，Set与Array的对比](es6/mapyu-array-de-dui-bi-ff0c.md)
   * [13. Proxy和Rflect](es6/456.md)
-  * 14. 类和对象
-  * 235
-  * 526
+  * [14. 类和对象](es6/lei-he-dui-xiang.md)
+  * [526](es6/526.md)
 
