@@ -81,6 +81,17 @@
 ```
 
 
+######Object.entries
+
+```
+{
+    let test = {k: 123, o: 456};
+    for(let [key,value] of Object.entries(test)){
+        console.log(ky, value);
+    }
+}
+```
+
 
 
 
