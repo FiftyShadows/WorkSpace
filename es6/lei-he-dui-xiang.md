@@ -12,3 +12,16 @@
 
 - setter
 
+
+
+##基本语法
+
+```
+{
+    class Parent{
+        constructor(name = 'imooc'){
+            this.name = name;
+        }
+    }
+}
+```
