@@ -109,15 +109,25 @@
 
 ##Map
 
+- 第一种定义方式
+
 ```
 {
   let map = new Map();
   let arr = ['123'];
   map.set(arr, 456);
+  console.log('map', map, map.get(arr));  //map Map {['123'] => 456} 456
+  
 }
 ```
 
+- 第二种定义方式
 
+```
+{
+  let map = new Map([['a', 123], ['b', 456]]);
+}
+```
 
 
 
