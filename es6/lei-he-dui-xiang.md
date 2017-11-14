@@ -53,6 +53,22 @@
 
 ##getter
 
+```
+{
+    class Parent{
+        constructor(name = 'imooc'){
+            this.name = name;
+        }
+        get longName(){
+            return 'mk' + this.name
+        }
+        set longName(value){
+            this,name = value;
+        }
+    }    
+}
+```
+
 
 
 
