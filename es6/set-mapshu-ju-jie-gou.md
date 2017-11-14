@@ -102,6 +102,7 @@
   let arg = {};
   weakList.add(arg);
   weakList.add(2);  //报错
+  console.log('weakList', weakList);
 }
 ```
 
