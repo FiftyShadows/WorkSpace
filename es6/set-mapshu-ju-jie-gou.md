@@ -15,10 +15,13 @@
 
 - 用add方法给Set里面增加元素
 
+- size方法获取变量有几个元素
+
 ```
 {
   let list = new Set();
   list.add(5);
   list.add(7);
+  console.log('size', list.size);
 }
 ```
