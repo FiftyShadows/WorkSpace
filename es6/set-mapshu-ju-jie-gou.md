@@ -65,6 +65,21 @@
 }
 ```
 
+- 遍历
+
+```
+{
+  let arr = ['add', 'delete', 'clear', 'has'];
+  let list = new Set(arr);
+  for(let key of list.keys()){
+    console.log('keys', key);  //add delete clear has
+  }
+  for(let value of list.values()){
+    console.log('values', value); //add delete clear has
+  }
+}
+```
+
 
 
 
