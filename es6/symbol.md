@@ -5,6 +5,7 @@
 ```
 {
     let al = Symbol();
+    let a2 = Symbol();
 }
 ```
 
