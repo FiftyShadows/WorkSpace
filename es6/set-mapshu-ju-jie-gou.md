@@ -77,6 +77,12 @@
   for(let value of list.values()){
     console.log('values', value);  //add delete clear has
   }
+  for(let value of list){
+    console.log('values', value); //add delete clear has
+  }
+  for(let [key, value] of list.entries()){
+    console.log('entries', key, value); //add delete clear has
+  }
 }
 ```
 
