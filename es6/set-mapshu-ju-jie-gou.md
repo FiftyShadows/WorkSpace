@@ -113,6 +113,7 @@
 {
   let map = new Map();
   let arr = ['123'];
+  map.set(arr, 456);
 }
 ```
 
