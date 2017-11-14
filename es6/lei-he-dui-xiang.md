@@ -40,7 +40,10 @@
         }
     }
     class Child expends Parent{
-        
+        constructor(name = 'child'){
+            super(name);
+            this.type = 'child';    //super要放在构造函数第一行
+        }
     }
     console.log('继承', new Child());
 }
