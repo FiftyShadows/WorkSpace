@@ -128,6 +128,24 @@
   let map = new Map([['a', 123], ['b', 456]]);
   console.log('map args', map);  //map args Map {'a' => 123, 'b' => 456}
   console.log('size', map.size);  //size 2
+  console.log('delete', map.delete('a'), map);  //delete true Map{'b' => 456}
+  console.log('clear', map.clear(), map);  //clear undefined Map{}
+}
+```
+
+- 遍历和Set一样
+
+
+
+##weakMap
+
+- WeapMap接受的key值必须是对象，不能是其他的
+
+- 没有size属性，不能使用clear,不能遍历
+
+```
+{
+  let weakMap = new WeakMap();
 }
 ```
 
