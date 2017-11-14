@@ -60,6 +60,8 @@
 
 ##Object新增方法
 
+######Object.is判断两个值是否相等
+
 ```
 {
     console.log('字符串', Object.is('abc', 'abc'), 'abc' === 'abc');    //true true
@@ -68,6 +70,8 @@
 }
 ```
 
+
+######Object.assign
 ``` 
 {
     //Object.assign（到a, 从b拷）
