@@ -17,7 +17,8 @@
 
 - size方法获取变量有几个元素
 
-```
+```js
+//第一种定义方式
 {
   let list = new Set();
   list.add(5);
@@ -25,6 +26,7 @@
   console.log('size', list.size);
 }
 
+//第二种定义方式
 {
   let arr = [1, 2, 3, 4, 5];
   let list = new Set(arr);
