@@ -32,6 +32,15 @@
   let list = new Set(arr);
   console.log('size', list.size);  //size 5
 }
+
+//唯一性
+{
+   let list = new Set();
+   list.add(1);
+   list.add(2);
+   list.add(1);
+     
+}
 ```
 
 
