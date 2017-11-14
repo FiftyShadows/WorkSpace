@@ -43,7 +43,7 @@
 
 - 对象中有用到Symbol做key值，通过for...in和let...of拿不到该属性
 
-- Object.getOwnPropertySymbols去Symbol属性的值
+- Object.getOwnPropertySymbols能取到Symbol属性的值
 
 - Reflect.ownKeys(obj)
 
