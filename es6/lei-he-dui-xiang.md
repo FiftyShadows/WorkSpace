@@ -76,11 +76,16 @@
 
 ##静态方法
 
+- 静态方法通过类调用，而不是用过类的实例来调用
+
 ```
 {
     class Parent{
         constructor(name = 'imooc'){
             this.name = name;
+        }
+        static tell(){
+            console.log('tell');
         }
     }
   
