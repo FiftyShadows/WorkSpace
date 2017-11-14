@@ -16,7 +16,6 @@
   * [3. 项目初始化和基于模块化的脚手架搭建](3.md)
   * [4. 项目通用功能开发](4.md)
 * [ES6](es6.md)
-  * [Promise](es6/promise.md)
   * [1-3. let、const命令，解构赋值，正则扩展](es6/letconstming-ling-ff0c-jie-gou-fu-zhi-ff0c-zheng-ze-kuo-zhan.md)
   * [4-5. 字符串扩展](es6/zi-fu-chuan-kuo-zhan.md)
   * [6. 数值扩展](es6/shu-zhi-kuo-zhan.md)
@@ -28,6 +27,7 @@
   * [12. Map与Array的对比，Set与Array的对比](es6/mapyu-array-de-dui-bi-ff0c.md)
   * [13. Proxy和Rflect](es6/456.md)
   * [14. 类和对象](es6/lei-he-dui-xiang.md)
+  * [15. Promise](es6/promise.md)
   * [526](es6/526.md)
   * 5446
   * 2416
