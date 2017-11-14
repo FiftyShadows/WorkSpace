@@ -145,7 +145,10 @@
 
 ```
 {
-  let weakMap = new WeakMap();
+  let weakmap = new WeakMap();
+  let o = {};
+  weakmap.set(o, 123);
+  console.log(weakmap.get(o));   //123
 }
 ```
 
