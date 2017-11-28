@@ -24,7 +24,9 @@
 由于改变了Angular的配置中的css为less,因此 你所有的css后缀文件都要改成less。
 
 
+##视图不显示数据
 
+- 是否在程序执行后赋值？(ngOnIint)
 
 
 
