@@ -31,5 +31,5 @@
   * [16. Iterator](es6/526.md)
   * [17. Generator](es6/5446.md)
   * [18. Decorator](es6/2416.md)
-  * 3216
+  * [3216](es6/3216.md)
 
