@@ -1,4 +1,4 @@
-##同步实现A执行完执行B
+## 同步实现A执行完执行B
 
 1. 回调
 
@@ -20,9 +20,9 @@
 
 ### 
 
-#### promise.all([]).then()
+#### promise.all\(\[\]\).then\(\)
 
-- 所有图片都加载完再添加到页面
+* 所有图片都加载完再添加到页面
 
 ```js
 {
@@ -39,15 +39,15 @@
             }
         })
     } 
-    
-    
+
+
     function showImgs(imgs){
         imgs.forEach(function(img){
             document.body.appendChild(img);
         })
     }
-        
-        
+
+
     Promise.all([
         loadImg('https://unsplash.it/320/150/?random'),
         loadImg('https://unsplash.it/320/150/?random'),
@@ -58,8 +58,7 @@
 }
 ```
 
-
-- 有一个图片加载完就添加到页面
+* 有一个图片加载完就添加到页面
 
 ```
 {
@@ -75,7 +74,7 @@
             }
         })
     }
-    
+
     function showImgs(img){
         let p = document.createElement("p");
         p.appendChild(img);
@@ -91,3 +90,6 @@
 
 }
 ```
+
+
+
