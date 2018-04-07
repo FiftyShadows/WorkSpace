@@ -7,6 +7,7 @@
 * [javascript动画和css动画](javascriptdong-hua-he-css-dong-hua.md)
 * [NodeJS](nodejs.md)
   * [nrm](nodejs/nrm.md)
+  * [nvm](nodejs/nvm.md)
 * [Angular经典组件](angularjing-dian-zu-jian.md)
   * [1. 星级评价组件](angularjing-dian-zu-jian/1.md)
 * [Angular常见错误](angularchang-jian-cuo-wu.md)
